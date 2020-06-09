@@ -16,7 +16,7 @@ Update a record.
 ```elm
 samurai = 
     {id=0, weapon="katana"}
-    |> (s -> {s | weapon = "no-dachi"})  -- {id=0, weapon="no-dachi"}
+    |> (\s -> {s | weapon = "no-dachi"})  -- {id=0, weapon="no-dachi"}
 ```
 
 ## NI
